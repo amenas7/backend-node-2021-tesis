@@ -2,19 +2,19 @@ const mysql = require('mysql');
 
 // coneccion a la BD
 const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'app_inci',
-    //insecureAuth : true,
-    multipleStatements: true
+    //host: 'localhost',
+    //user: 'root',
+    //password: '',
+    //database: 'app_inci',
+    ////insecureAuth : true,
+    //multipleStatements: true
 
-    // host: '168.235.83.190',
-    // user: 'app_docente',
-    // password: '14789UGELadmin',
-    // database: 'app_inci',
-    // insecureAuth : true,
-    // multipleStatements: true
+    host: '50.31.177.9',
+    user: 'zbkdywzp_root',
+    password: 'OTOnashi93MS',
+    database: 'zbkdywzp_app_inci',
+    insecureAuth : true,
+    multipleStatements: true
 
 
     // host: 'us-cdbr-east-02.cleardb.com',

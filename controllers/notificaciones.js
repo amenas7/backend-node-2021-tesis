@@ -35,8 +35,8 @@ const handlerResponse = (res, data, code = 200) => {
       "notification": {
         "title": "Ticket asignado - PWA",
         "body": "Sele informa que tiene un ticket asignado con número ####",
-        "vibrate": [100, 50, 100],
-        "image": "https://ayudadomiciliolorca.com/wp-content/uploads/2015/01/teleoperadora.png",
+        "vibrate": [200, 100, 200, 100, 200, 100, 200],
+        "icon": "https://ayudadomiciliolorca.com/wp-content/uploads/2015/01/teleoperadora.png",
         "actions": [{
           "action": "explore",
           "title": "Ticket asignado"

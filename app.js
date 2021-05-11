@@ -63,6 +63,8 @@ server.app.use('/api/tickets_recrear', require('./routes/tickets_recrear') );
 server.app.use('/api/prioridades', require('./routes/prioridades') );
 server.app.use('/api/indicador_uno', require('./routes/indicador_uno') );
 server.app.use('/api/indicador_dos', require('./routes/indicador_dos') );
+server.app.use('/api/guardarnavegador', require('./routes/guardarnavegador') );
+server.app.use('/api/send', require('./routes/notificaciones') );
 server.app.use('/api/roles', require('./routes/roles') );
 server.app.use('/api/login', require('./routes/auth') );
 

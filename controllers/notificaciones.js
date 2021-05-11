@@ -33,13 +33,13 @@ const handlerResponse = (res, data, code = 200) => {
 
     const payload = {
       "notification": {
-        "title": "HOLA CLARO QUE SIIIIII !! MUY BIEN",
-        "body": "Subscribete a mi canal de YOUTUBE",
+        "title": "Ticket asignado - PWA",
+        "body": "Sele informa que tiene un ticket asignado con número ####",
         "vibrate": [100, 50, 100],
-        "image": "https://avatars2.githubusercontent.com/u/15802366?s=460&u=ac6cc646599f2ed6c4699a74b15192a29177f85a&v=4",
+        "image": "https://ayudadomiciliolorca.com/wp-content/uploads/2015/01/teleoperadora.png",
         "actions": [{
           "action": "explore",
-          "title": "HOLA!"
+          "title": "Ticket asignado"
         }]
       }
     }
